@@ -54,6 +54,10 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .icon {
     display: flex;
     align-items: center;
