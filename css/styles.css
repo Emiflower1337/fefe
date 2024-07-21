@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --light-pink: #ffccff;
+    --pink: #ff99cc;
+    --bright-pink: #ff66cc;
+    --dark-pink: #ff3399;
+    --retro-shadow: #ff33cc;
+    --dark-text: #333333;
+    --white-text: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: var(--light-pink);
+    color: var(--dark-text);
+    font-family: 'VT323', monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+header {
+    background-color: var(--pink);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header img.header-gif {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: var(--white-text);
+    text-shadow: 2px 2px var(--retro-shadow);
+}
+
+nav {
+    background-color: var(--bright-pink);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--white-text);
+    text-decoration: none;
+    font-size: 1.2em;
+    text-shadow: 1px 1px var(--retro-shadow);
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    color: var(--dark-pink);
+    text-shadow: 1px 1px var(--bright-pink);
+}
+
+footer {
+    background-color: var(--bright-pink);
+    padding: 10px;
+    color: var(--white-text);
+    text-shadow: 1px 1px var(--retro-shadow);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.title-bar {
+    background: var(--bright-pink);
+}
+
+li span {
+    color: var(--dark-pink);
+}
